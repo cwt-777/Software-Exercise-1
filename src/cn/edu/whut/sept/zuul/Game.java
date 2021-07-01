@@ -104,6 +104,10 @@ public class Game
         }
 
         String commandWord = command.getCommandWord();
+<<<<<<< HEAD
+=======
+        
+>>>>>>> a2b9697 (first-commit)
         if (commandWord.equals("help")) {
             printHelp();
         }
@@ -172,4 +176,8 @@ public class Game
             return true;  // signal that we want to quit
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a2b9697 (first-commit)
